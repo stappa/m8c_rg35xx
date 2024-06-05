@@ -50,7 +50,7 @@ lamaa's repo is here: https://github.com/laamaa/m8c/
 * Insert the SD card into TF1/INT slot and turn on the power. Wait for the boot procedure to complete. Koriki simplemenu should apear.
 * Turn off the power by pressing volume up and power simultaneously.
 * Remove the SD card from device and insert it into the PC. There should be "BATOCERA" volume.
-* On the "BATOCERA" volume: Create "share/m8c" folder. Copy files from the release archive to "roms/apps/m8c/".
+* On the "BATOCERA" volume: Create "share/m8c" folder. Copy files from the release archive to "share/m8c" folder.
 * Insert SD card into RG35XX and boot. Koriki simplemenu should appear.
 * Go to "APPS&GAMES/TOOLS" in Koriki menu. Launch "Commander".
 * With commander, go to /boot/share/m8c/scripts directory.
