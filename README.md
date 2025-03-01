@@ -13,6 +13,13 @@ It uses a single SD card setup. Double SD cards setup not tested, maybe will be 
 ## Thanks to lamaa for the m8c code that makes this thing work.
 lamaa's repo is here: https://github.com/laamaa/m8c/
 
+## How to build
+
+You should have docker and python3 installed.
+
+    ./build.sh
+
+Build script will fetch an image with toolchain from dockerhub, then build m8c and copy all needed files to `package` directory.
 
 ## Installation to RG35XX with Koriki 1.2
 

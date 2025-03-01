@@ -1,0 +1,15 @@
+kernel/drivers/net/ethernet/acts/ethernet.ko:
+kernel/drivers/input/keyboard/gpio_keys_polled.ko:
+kernel/drivers/i2c/algos/i2c-algo-bit.ko:
+kernel/drivers/power/atc260x_cap_gauge.ko:
+kernel/drivers/gpu/drm/drm.ko:
+kernel/drivers/gpu/pvr/eurasia_km_linux/pvrsrvkm.ko: kernel/drivers/gpu/drm/drm.ko
+kernel/drivers/gpu/pvr/eurasia_km_linux/bc_example.ko: kernel/drivers/gpu/pvr/eurasia_km_linux/pvrsrvkm.ko kernel/drivers/gpu/drm/drm.ko
+kernel/net/rfkill/rfkill-regulator.ko:
+kernel/net/rfkill/rfkill-gpio.ko:
+8188eu.ko:
+8192cu.ko:
+kernel/sound/core/snd-hwdep.ko:
+kernel/sound/core/snd-aloop.ko:
+kernel/sound/usb/snd-usb-audio.ko:  kernel/sound/core/snd-hwdep.ko  kernel/sound/usb/snd-usbmidi-lib.ko
+kernel/sound/usb/snd-usbmidi-lib.ko:

@@ -1,0 +1,3 @@
+[submodule "m8c"]
+	path = m8c
+	url = https://github.com/laamaa/m8c
