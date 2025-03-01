@@ -17,6 +17,7 @@ lamaa's repo is here: https://github.com/laamaa/m8c/
 
 You should have docker and python3 installed.
 
+    git submodule update --init --recursive
     ./build.sh
 
 Build script will fetch an image with toolchain from dockerhub, then build m8c and copy all needed files to `package` directory.
