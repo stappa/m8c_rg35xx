@@ -22,6 +22,17 @@ You should have docker and python3 installed.
 
 Build script will fetch an image with toolchain from dockerhub, then build m8c and copy all needed files to `package` directory.
 
+Notes on build:
+I do not have RG35XX device for now, so i kind of abandoned this repo.
+
+Last release should work with headless firmware v4.0.1
+https://github.com/Dirtywave/M8HeadlessFirmware/blob/main/Releases/M8_V4_0_1_HEADLESS.hex
+
+Apparently from v4.0.2 there was some changes which affect sound functionality, these issue was not solved and i don't know if i will solve it without the device.
+
+Build includes prebuilded kernel modules for USB MIDI and USB Audio, as in Koriki 1.2 they was not included in OS build. Also build includes prebuilded version of libserialport.
+There is no instructions how to build kernel modules and libserialport as process was not documented. Maybe i will restore it later.
+
 ## Installation to RG35XX with Koriki 1.2
 
 * Download Koriki 1.0 firmware from [here](https://github.com/rg35xx-cfw/Koriki/releases/tag/koriki_rg35xx_v1.0).
